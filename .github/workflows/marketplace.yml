@@ -11,4 +11,5 @@ jobs:
     - name: Check out the code
       uses: actions/checkout@v2
     - name: Python Syntax Checker
+      # searched using python syntaz
       uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
